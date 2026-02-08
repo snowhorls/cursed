@@ -14,7 +14,6 @@ jre-openjdk
 linux
 linux-firmware
 man-db
-multimc-bin
 networkmanager
 nvidia-utils
 picom
