@@ -1,6 +1,6 @@
 # Arch linux Setup
 [1](#installing-all-packages)
-[2](#suckless-software##making-each-program)
+[2](#making-each-program)
 uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 ```
 /etc/pacman.conf
