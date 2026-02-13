@@ -4,7 +4,7 @@ uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 /etc/pacman.conf
 ```
 #
-
+<br>
 ```
 pacman -S --needed - < pkglist.txt
 ``` 
