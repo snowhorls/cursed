@@ -16,10 +16,9 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 | fillgaps | alpha | center |
 | statuscmd | scrollback |
 
-suckless site
 - https://suckless.org
 
-# Setup for Hp-Victus
+# Setup for Hp-Victus Laptop
 
 * Nvidia problems with sleeping
 
