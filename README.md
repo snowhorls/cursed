@@ -9,7 +9,7 @@ uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 pacman -S --needed - < pkglist.txt
 ``` 
 
-# Suckless Software
+# [Suckless Software](https://suckless.org)
 all the suckless software is prepatched and preconfigured as minimally as posible with no uneccisary bloat
 
 ## patch list
@@ -18,8 +18,6 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 | --- | --- | --- |
 | [fullgaps](https://dwm.suckless.org/patches/fullgaps/) | [alpha](https://st.suckless.org/patches/alpha/) | [center](https://tools.suckless.org/dmenu/patches/center/) |
 | [statuscmd](https://dwm.suckless.org/patches/statuscmd/) | [scrollback](https://st.suckless.org/patches/scrollback/) |
-
-- https://suckless.org
 
 each program must be made using
 ```
