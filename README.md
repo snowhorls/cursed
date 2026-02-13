@@ -6,6 +6,12 @@ pacman -S --needed - < pkglist.txt
 installs all the packages <br>
 - https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list
 
+# Suckless Software
+all the suckless software is prepatched and preconfigured and has to be made using
+```sh
+sudo make install
+```
+
 # Setup for Hp-Victus
 
 * Nvidia problems with sleeping
