@@ -32,6 +32,12 @@ dwmblocks-async looks for the scripts in **~/.local/bar** and
 <br>
 the source directory is also meant to go in **~/.local/** but can go anywhere
 
+# remapping esc and caps
+[xorg/keyboard-configuration](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files)
+```
+setxkbmap -option caps:swapescape
+```
+
 ## auto script/untested
 running **setup.sh** automates this installing process for the [**HP-Victus**](#Setup-for-Hp-Victus-Laptop) but is untested currently
 
