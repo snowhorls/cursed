@@ -18,6 +18,14 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 
 - https://suckless.org
 
+## File locations
+dwmblocks-async looks for the scripts in **~/.local/bar** and
+<br>
+the source directory is also meant to go in **~/.local/** but can go anywhere
+
+## auto script/untested
+run setup.sh automate this process
+
 # Setup for Hp-Victus Laptop
 
 * Nvidia problems with sleeping
@@ -38,10 +46,3 @@ systemctl disable nvidia-suspend.service
 systemctl disable nvidia-hibernate.service
 systemctl disable nvidia-resume.service
 ```
-## File locations
-dwmblocks-async looks for the scripts in **~/.local/bar** and
-<br>
-the source directory is also meant to go in **~/.local/** but can go anywhere
-
-## auto script/untested
-run setup.sh automate this process
