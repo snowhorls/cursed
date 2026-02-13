@@ -32,6 +32,7 @@ all the suckless software is already configured, and patched as minimally as pos
 ```
 sudo make install
 ```
+- make each program in their direcory
 
 ## file-locations
 dwmblocks-async looks for the scripts in **~/.local/bar** and
