@@ -13,8 +13,8 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 
 | dwm | st | dmenu |
 | --- | --- | --- |
-| fillgaps | alpha | center |
-| statuscmd | scrollback |
+| [fillgaps](https://dwm.suckless.org/patches/fullgaps/) | [alpha](https://st.suckless.org/patches/alpha/) | [center](https://tools.suckless.org/dmenu/patches/center/) |
+| [statuscmd](https://dwm.suckless.org/patches/statuscmd/) | [scrollback](https://st.suckless.org/patches/scrollback/) |
 
 - https://suckless.org
 
@@ -42,8 +42,8 @@ options nvidia NVreg_TemporaryFilePath=/var/tmp
 ```
 in **/etc/default/grub** or **/etc/modprobe.d** which solves the issue thanks to a smart guy on reddit i found
 
-- [genious guy on reddit](https://www.reddit.com/r/hyprland/comments/1cyb0h7/hibernate_on_nvidia/)
-- [arch wiki nvidia tips](https://wiki.archlinux.org/title/NVIDIA/Tips_and_tricks#Preserve_video_memory_after_suspend)
+- < https://www.reddit.com/r/hyprland/comments/1cyb0h7/hibernate_on_nvidia/ >
+- < https://wiki.archlinux.org/title/NVIDIA/Tips_and_tricks#Preserve_video_memory_after_suspend >
 
 you can also just disable sleeping using nvidia
 ```
