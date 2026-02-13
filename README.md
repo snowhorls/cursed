@@ -13,13 +13,14 @@ sudo make install
 ```
 
 ## patch list
+
 ### dwm
 - fullgaps
 - statuscmd
 ### st
 - alpha
 - scrollback
-## dmenu
+### dmenu
 - center
 
 # Setup for Hp-Victus
