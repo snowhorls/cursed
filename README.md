@@ -1,4 +1,13 @@
 # Arch linux Setup
+uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
+```
+/etc/pacman.conf
+```
+
+```
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
 
 ```
 pacman -S --needed - < pkglist.txt
