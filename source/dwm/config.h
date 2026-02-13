@@ -68,6 +68,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *volup[]  = { "amixer", "set", "Master", "10%+",  NULL };
 static const char *voldown[]  = { "amixer", "set", "Master", "10%-",  NULL };
 static const char *volmute[]  = { "amixer", "set", "Master", "toggle",  NULL };
+/* use brightnessctl -l  to figure out your card and use it for this keybind */ 
 static const char *brightup[]  = { "brightnessctl", "-d", "intel_backlight", "s", "10%+",  NULL };
 static const char *brightdown[]  = { "brightnessctl", "-d", "intel_backlight", "s", "10%-",  NULL };
 
