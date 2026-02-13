@@ -1,9 +1,4 @@
 # Arch linux Setup
-[installation](#installing-all-packages)<br>
-[making](#making-each-program)<br>
-[file locations](#file-locations)
-
-<br>
 
 uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 ```
