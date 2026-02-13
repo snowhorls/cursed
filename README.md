@@ -18,13 +18,18 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 
 - https://suckless.org
 
+each program must be made using
+```
+sudo make install
+```
+
 ## File locations
 dwmblocks-async looks for the scripts in **~/.local/bar** and
 <br>
 the source directory is also meant to go in **~/.local/** but can go anywhere
 
 ## auto script/untested
-run setup.sh automates this process but is untested currently
+run setup.sh automates this installing process but is untested currently
 
 # Setup for Hp-Victus Laptop
 
