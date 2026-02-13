@@ -1,4 +1,4 @@
-# Arch linux Setup
+# [Arch linux Setup](wiki.archlinux.org)
 uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 ```
 /etc/pacman.conf
