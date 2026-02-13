@@ -11,7 +11,7 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 
 ## patch list
 
-| # dwm | # st | # dmenu |
+| dwm | st | dmenu |
 | --- | --- | --- |
 | fillgaps | alpha | center |
 | statuscmd | scrollback |
