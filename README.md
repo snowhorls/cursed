@@ -38,6 +38,9 @@ sudo make install
 dwmblocks-async looks for the scripts in **~/.local/bar** and
 <br>
 the source directory is also meant to go in **~/.local/** but can go anywhere
+```
+mv source bar .local/
+```
 
 # remapping esc and caps
 [xorg/keyboard-configuration](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files)
