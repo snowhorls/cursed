@@ -1,10 +1,12 @@
-# [Arch linux Setup](https://wiki.archlinux.org)
+# Arch linux Setup
+[1](installing-all-packages)
+[2]
 uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 ```
 /etc/pacman.conf
 ```
 
-# [installing all packages from pkglist.txt](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list)
+# [installing-all-packages](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list)
 ```
 pacman -S --needed - < pkglist.txt
 ``` 
@@ -19,7 +21,8 @@ all the suckless software is prepatched and preconfigured as minimally as posibl
 | [fullgaps](https://dwm.suckless.org/patches/fullgaps/) | [alpha](https://st.suckless.org/patches/alpha/) | [center](https://tools.suckless.org/dmenu/patches/center/) |
 | [statuscmd](https://dwm.suckless.org/patches/statuscmd/) | [scrollback](https://st.suckless.org/patches/scrollback/) |
 
-each program must be made using
+## making-each-program
+| dwm | st| dmenu | dwmblocks-async |
 ```
 sudo make install
 ```
