@@ -17,10 +17,7 @@ pacman -S --needed - < pkglist.txt
 ``` 
 
 # suckless-software
-all the suckless software can be installed using git clone, it is already configured, and patched as minimally as posible with no uneccisary bloat
-```
-git clone https://git.suckless.org/dwm && git clone https://git.suckless.org/st && git clone https://git.suckless.org/dmenu && git clone https://github.com/UtkarshVerma/dwmblocks-async.git
-```
+all the suckless software is already configured, and patched as minimally as posible with no uneccisary bloat
 
 ## patch list
 
