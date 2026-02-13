@@ -1,6 +1,6 @@
 # Arch linux Setup
 [1](#installing-all-packages)
-[2](##making-each-program)
+[2](#suckless-software##making-each-program)
 uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 ```
 /etc/pacman.conf
@@ -11,7 +11,7 @@ uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 pacman -S --needed - < pkglist.txt
 ``` 
 
-# [Suckless Software](https://suckless.org)
+# [suckless-software](https://suckless.org)
 all the suckless software is prepatched and preconfigured as minimally as posible with no uneccisary bloat
 
 ## patch list
