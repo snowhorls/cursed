@@ -14,6 +14,12 @@ sudo make install
 
 ## patch list
 
+dwm | st | dmenu
+fullgaps
+statuscmd | 
+
+
+
 ### dwm
 - fullgaps
 - statuscmd
