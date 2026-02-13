@@ -6,10 +6,10 @@ uncomment the [multilib](https://wiki.archlinux.org/title/Multilib) section in
 #
 <br>
 
+[installing all packages from pkglist.txt](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list)
 ```
 pacman -S --needed - < pkglist.txt
 ``` 
-[installs all packages from pkglist.txt](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list)
 
 # Suckless Software
 all the suckless software is prepatched and preconfigured as minimally as posible with no uneccisary bloat
