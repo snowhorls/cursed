@@ -13,11 +13,11 @@ sudo make install
 ```
 
 ## patch list
-
+_
 dwm | st | dmenu
-fullgaps
-statuscmd | 
-
+fullgaps| alpha
+statuscmd | scrollback
+-
 
 
 ### dwm
